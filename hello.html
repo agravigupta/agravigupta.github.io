@@ -1,0 +1,60 @@
+<HTML>
+<head>
+<script>
+function show(){
+	document.getElementById("d1").style.display="block";
+	document.getElementById("d2").style.display="none";
+	document.getElementById("d3").style.display="none";
+	document.getElementById("d4").style.display="none";
+	document.getElementById("d5").style.display="none";
+	}
+	function show1(){
+    document.getElementById("d2").style.display="block";
+    document.getElementById("d1").style.display="none";
+    document.getElementById("d3").style.display="none";
+    document.getElementById("d4").style.display="none";
+    document.getElementById("d5").style.display="none";
+    }
+    function show2(){
+    document.getElementById("d3").style.display="block";
+    document.getElementById("d1").style.display="none";
+    document.getElementById("d2").style.display="none";
+    document.getElementById("d4").style.display="none";
+    document.getElementById("d5").style.display="none";
+    }
+    function show3(){
+    document.getElementById("d4").style.display="block";
+    document.getElementById("d1").style.display="none";
+    document.getElementById("d2").style.display="none";
+    document.getElementById("d3").style.display="none";
+    document.getElementById("d5").style.display="none";
+	}
+    function show4(){
+    document.getElementById("d5").style.display="block";
+    document.getElementById("d1").style.display="none";
+    document.getElementById("d2").style.display="none";
+    document.getElementById("d3").style.display="none";
+    document.getElementById("d4").style.display="none";
+    }
+</script>
+</head>
+<body>
+<form>
+<input type="button" value="View" name="View" id="1" class="Aa" onclick="show()"><br><br>
+<div id="d1" style="display:none;">hello 1
+</div>
+<input type="button" value="View" name="View" id="2" class="Aa" onclick="show1()"><br><br>
+<div id="d2" style="display:none;">hiiii 2
+</div>
+<input type="button" value="View" name="View" id="3" class="Aa" onclick="show2()"><br><br>
+<div id="d3" style="display:none;">ssup 3
+</div>
+<input type="button" value="View" name="View" id="4" class="Aa" onclick="show3()"><br><br>
+<div id="d4" style="display:none;">yo bro 4
+</div>
+<input type="button" value="View" name="View" id="5" class="Aa" onclick="show4()"><br><br>
+<div id="d5" style="display:none;">hello 5
+</div>
+</form>
+</body>
+</HTML>
